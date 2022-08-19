@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.java.pom.TestPage">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="terminateBrowser"/>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- com.java.pom.TestPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
